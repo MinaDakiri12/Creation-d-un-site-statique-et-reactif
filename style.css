@@ -330,4 +330,16 @@ body {
     }
 }
 
+/*****Footer*****/
+
+footer{
+    background-color: #E8491D;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/******Footer******/
 
