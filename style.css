@@ -230,7 +230,7 @@ body {
     }
 }
 /**** Header*****/
-
+/**** Newsletter*****/
 #newsletter {
     background-color: #35424A;
 }
@@ -289,4 +289,45 @@ body {
     }
 
 }
+/**** Newsletter*****/
+#boxes{
+    background-color: #F4F4F4;
+}
+/***Service section***/
+.service{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.service .box img{
+    display: block;
+    margin: auto;
+    width: 32%;
+}
+
+.service .box h3{
+    text-align: center;
+}
+
+.service .box p{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media  (max-width:600px){
+    #services .container {
+        padding: 1rem 2rem;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 32px;
+        padding-bottom: 2rem;
+    }
+}
+
 
